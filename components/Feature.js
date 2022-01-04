@@ -5,29 +5,29 @@ const Feature = () => {
     {
       "title": "Technology",
       "brief": "For what you need, we can provide the solution with our reliable technology.",
-      "image": "/images/icon_main_tech.svg"
+      "image": "./images/icon_main_tech.svg"
     },
     {
       "title": "Design",
       "brief": "You don't need to think about solution design, you only need your business flow and idea.",
-      "image": "/images/icon_main_design.svg"
+      "image": "./images/icon_main_design.svg"
     },
     {
       "title": "Project Management",
       "brief": "Our reliable team will manage your business project from start to finish.",
-      "image": "/images/icon_main_pm.svg"
+      "image": "./images/icon_main_pm.svg"
     },
     {
       "title": "Creative Mind",
       "brief": "Our reliable team will manage your business project from start to finish.",
-      "image": "/images/icon_main_creative.svg"
+      "image": "./images/icon_main_creative.svg"
     }
   ]
   return (
     <section className={styles.Feature}>
       {
         featureData.map((feature,key) => (
-          <div className={styles.Feature__Item}>
+          <div className={styles.Feature__Item} key={key}>
             <div className={styles.Feature__ItemImg}>
               <img src={feature.image} />
             </div>

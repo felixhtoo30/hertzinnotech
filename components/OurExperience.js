@@ -5,7 +5,7 @@ const OurExperience = () => {
     <section id="OurExperience" className={styles.OX}>
       <div className={styles.OX__Flex}>
         <div className={styles.OX__Image}>
-          <img src={'/images/fig_our_experience.svg'} />
+          <img src={'./images/fig_our_experience.svg'} />
         </div>
         <div className={styles.OX__Content}>
           <p className={styles.OX__ContentTitle}>Our Experiences</p>

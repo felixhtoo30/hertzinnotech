@@ -16,7 +16,7 @@ export default function AboutUs() {
       </Head>
 
       <Header />
-      <Banner title={'About Us'} image={'/images/img_b_about_us.jpg'} />
+      <Banner title={'About Us'} image={'./images/img_b_about_us.jpg'} />
       <main className={`hit-container`}>
         <OurTeam />
         <Ethic />

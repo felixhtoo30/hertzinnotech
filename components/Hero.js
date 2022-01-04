@@ -34,7 +34,7 @@ const Hero = () => {
       <div className={styles.Hero__Content}>
         <h1 className={styles.Hero__Title}>Hertz Inno Tech</h1>
         <h3 className={styles.Hero__Tagline}>Start Digitizing</h3>
-        <Button text={'Contact Us'} parentStyles={styles.Hero__Btn} />
+        <a href="contact-us"><Button text={'Contact Us'} parentStyles={styles.Hero__Btn} /></a>
       </div>
     </section>
   )

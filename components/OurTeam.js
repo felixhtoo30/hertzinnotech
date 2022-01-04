@@ -5,7 +5,7 @@ const OurTeam = () => {
     <section id="OurTeam" className={styles.OT}>
       <div className={styles.OT__Flex}>
         <div className={styles.OT__Image}>
-          <img src={'/images/fig_our_team.svg'} />
+          <img src={'./images/fig_our_team.svg'} />
         </div>
         <div className={styles.OT__Content}>
           <p className={styles.OT__ContentTitle}>Our Mission</p>

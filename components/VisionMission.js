@@ -5,7 +5,7 @@ const VisionMission = () => {
     <section id="VisionMission" className={styles.VM}>
       <div className={styles.VM__Flex}>
         <div className={styles.VM__Image}>
-          <img src={'/images/fig_our_mission.svg'} />
+          <img src={'./images/fig_our_mission.svg'} />
         </div>
         <div className={styles.VM__Content}>
           <p className={styles.VM__ContentTitle}>Our Mission</p>
@@ -14,7 +14,7 @@ const VisionMission = () => {
       </div>
       <div className={styles.VM__Flex}>
         <div className={styles.VM__Image}>
-          <img src={'/images/fig_our_vision.svg'} />
+          <img src={'./images/fig_our_vision.svg'} />
         </div>
         <div className={styles.VM__Content}>
           <p className={styles.VM__ContentTitle}>Our Vision</p>

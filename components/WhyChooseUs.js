@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
     <section id="WhyChooseUs" className={styles.WCU}>
       <div className={styles.WCU__Flex}>
         <div className={styles.WCU__Image}>
-          <img src={'/images/fig_why_choose_us.svg'} />
+          <img src={'./images/fig_why_choose_us.svg'} />
         </div>
         <div className={styles.WCU__Content}>
           <p className={styles.WCU__ContentTitle}>Why Choose Us?</p>

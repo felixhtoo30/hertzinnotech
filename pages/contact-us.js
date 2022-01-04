@@ -14,7 +14,7 @@ export default function ContactUs() {
       </Head>
 
       <Header />
-      <Banner title={'Contact Us'} image={'/images/img_b_contact_us.jpg'} />
+      <Banner title={'Contact Us'} image={'./images/img_b_contact_us.jpg'} />
       <main className={`hit-container`}>
         <Contact />
       </main>
