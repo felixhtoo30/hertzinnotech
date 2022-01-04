@@ -1,0 +1,14 @@
+.Circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 10px solid $color-white;
+    box-sizing: content-box;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.18);
+    background: $color-primary;
+    &__Text {
+        color: $color-text;
+        font-size: calc(12px + 0.8vw);
+        font-family: 'Poppins';
+    }
+}

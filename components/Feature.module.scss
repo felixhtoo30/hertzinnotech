@@ -1,0 +1,43 @@
+.Feature {
+    padding: 50px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    @include media($from: 768) {
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    @include media($from: 1200) {
+        flex-flow: row;
+    }
+    & > * {
+        @include media($from: 768) {
+            flex: 1 1 50%;
+        }
+        @include media($from: 1200) {
+            flex: 1 1 25%;
+        }
+    }
+    &__Item {
+        display: flex;
+        flex-flow: column;
+        text-align: center;
+        padding: 1.4em 0;
+        &Title {
+            padding-top: 0.8em;
+            color: $color-text;
+            font-size: 22px;
+            font-weight: 700;
+            
+        }
+        &Brief {
+            width: 60%;
+            padding-top: 0.8em;
+            margin: 0 auto;
+            @include media($from: 768) {
+                width: 80%;
+                font-size: 18px;
+            }
+        }
+    }
+}
