@@ -31,7 +31,7 @@
         white-space: nowrap;
         color: $color-secondary;
         background: $color-white;
-        @include media($from: 1200) {
+        @include media($from: 992) {
             font-size: 36px;
         }
     }

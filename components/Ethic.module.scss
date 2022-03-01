@@ -32,14 +32,11 @@
             color: $color-text;
         }
         &Brief {
-            width: 60%;
+            width: 80%;
             padding-top: 0.8em;
             margin: 0 auto;
             text-align: justify;
             font-size: 18px;
-            @include media($from: 768) {
-                width: 80%;
-            }
         }
     }
 }

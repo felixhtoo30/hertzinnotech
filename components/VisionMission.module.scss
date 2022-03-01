@@ -42,14 +42,11 @@
             @include media($from: 576) {
                 width: auto;
             }
-            @include media($from: 768) {
-                // width: 100%;
-            }
         }
     }
     &__Content {
         &Title {
-            font-size: 36px;
+            font-size: 30px;
             font-weight: 700;
             color: $color-text;
             text-align: center;
@@ -58,12 +55,10 @@
                 margin: 0.4em 0 380px;
             }
             @include media($from: 768) {
+                font-size: 36px;
                 text-align: left;
                 margin: 0.4em 0 0;
             }
-        }
-        &Body {
-            // font-size: 20px;
         }
     }
 }
